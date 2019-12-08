@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+              <title type="main">List of Lynching Victims in Texas</title>
+              <title type="sub">A TEI Encoding</title>
+           </titleStmt>
+           <publicationStmt>
+              <publisher>Leslie A. Davila</publisher>
+              <pubPlace>College Station, TX</pubPlace>
+              <date when="2019">2019</date>
+              <availability>
+                 <licence target="http://creativecommons.org/licenses/by/3.0/">
+                    <p>
+                       Distributed under a Creative Commons Attribution 3.0 Unported License.
+                    </p>
+                 </licence>
+              </availability>
+           </publicationStmt>
+           <sourceDesc>
+              <p>Born Digital.</p>
+           </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>        
+         <listPerson>
+            <person xml:id="JuanCGuerra">
+               <persName xml:id="JuanCGuerra-name1">Juan Chapa Guerra</persName>
+               <death>
+                  <date when="1850-01">Jan. 1850</date>
+                  <location>
+                     <measure>Near</measure>
+                     <placeName role="Bville">Brownsville</placeName>
+                  </location>.
+               </death>
+               <listEvent>
+                  <event>
+                     <desc>
+                        <persName ref="#JuanCGuerra">Juan</persName> was lynched on <date when="1850-01">Jan. 1850</date> near <location><placeName role="Bville">Brownsville</placeName></location>.
+                        He was charged with theft. He was whipped and then killed by a small group of men under mistaken 
+                        impression that victim was Juan Chapa Garcia.
+                     </desc>
+                  </event>
+               </listEvent>
+               <bibl xml:id="biblynched-1">
+                  <title>Report of the Committee of Investigation of the Mexican Government</title>
+               </bibl>
+            </person>
+         </listPerson>
+         <listPerson>
+            <person xml:id="Anon-01">
+               <persName xml:id="Anon-01-name1">Unknown</persName>
+               <death>
+                  <date when="1852-04">April 1852</date>
+                  <location>
+                     <placeName role="RGCity">Rio Grande City</placeName>
+                  </location>.
+               </death>
+               <listEvent>
+                  <event>
+                     <desc>
+                        An unknown individual, presumably male, was lynched on <date when="1852-04">April 1852</date> in the <location><placeName role="RGCity">Rio Grande Valley</placeName></location>.
+                        He was charged with murder. He was hung by citizens in the presence of the "—all concurring."
+                     </desc>
+                  </event>
+               </listEvent>
+               <bibl xml:id="biblynched-2">
+                  <title><placeName type="newspaper">New York Times</placeName></title>, <date when="1852-05-13">13 May 1852</date>
+               </bibl>
+            </person>
+         </listPerson> 
+         <listPerson>
+            <personGrp xml:id="AnonGrp-01">
+               <persName xml:id="AnonGrp-01-name1">Group of 6 Unknown Mexicans</persName>
+               <death>
+                  <date when="1852-04">Apr. 1852</date>
+                  <location>
+                     <measure>Outside</measure>
+                     <placeName role="RGCity">Rio Grande City</placeName>
+                  </location>.
+               </death>
+               <listEvent>
+                  <event>
+                     <desc>
+                        6 unknown Mexicans, presumably male, were lynched on <date when="1852-04">Apr. 1852</date> in "The Wells," an area outside of <location><placeName role="RGCity">Rio Grance City</placeName></location>.
+                        They were charged with the murder of <persName>Thomas Harris</persName>. They were charged upon and shot dead by Anglos for their actions.
+                     </desc>
+                  </event>
+               </listEvent>
+               <bibl xml:id="biblynched-2">
+                  <title><placeName type="newspaper">New York Times</placeName></title>, <date when="1852-05-13">13 May 1852</date>
+               </bibl>
+            </personGrp>
+            <listRelation>
+               <relation name="memberOf" active="#Anon-02 #Anon-03 #Anon-04 #Anon-05 #Anon-06 #Anon-07" passive="AnonGrp-01">
+                  <desc>
+                     <persName xml:id="AnonGrp-01-name2">Unknown 02</persName>, <persName xml:id="AnonGrp-01-name3">Unknown 03</persName>,
+                     <persName xml:id="AnonGrp-01-name4">Unknown 04</persName>, <persName xml:id="AnonGrp-01-name5">Unknown 05</persName>,
+                     <persName xml:id="AnonGrp-01-name6">Unknown 06</persName>, and <persName xml:id="AnonGrp-01-name7">Unknown 07</persName> 
+                     were in a <persName xml:id="AnonGrp-001-name1">group of 6 Unknown Mexicans</persName> lynched on <date when="1852-04">Apr. 1852</date>.
+                  </desc>
+               </relation>
+            </listRelation>
+         </listPerson>      
+         <listPerson>
+            <personGrp xml:id="AnonGrp-02">
+               <persName xml:id="AnonGrp-02-name1">Group of 4 Unknown Mexicans</persName>
+               <death>
+                  <measure>Early</measure>
+                  <date when="1855-05">May 1855</date>
+                  <location>
+                     <placeName role="ElPaso">El Paso</placeName>
+                  </location>.
+               </death>
+               <listEvent>
+                  <event>
+                     <desc>
+                        4 unknown Mexicans, presumably male, were lynched on in <date when="1855-05">May 1855</date> in <placeName role="ElPaso">El Paso</placeName>.
+                        They were charged with sexual assault, presumably of a female. They were hung to satisfy the outrage of the family.
+                     </desc>
+                  </event>
+               </listEvent>
+               <bibl xml:id="biblynched-3">
+                  <title><placeName type="newspaper">New York Times</placeName></title>, <date when="1855-05-12">12 May 1855</date>
+               </bibl>
+            </personGrp>
+            <listRelation>
+               <relation name="memberOf" active="#Anon08 #Anon09 #Anon10 #Anon11" passive="AnonGrp-02">
+                  <desc>
+                     <persName xml:id="AnonGrp-02-name2">Unknown 08</persName>, <persName xml:id="AnonGrp-02-name3">Unnown 09</persName>, 
+                     <persName xml:id="AnonGrp-02-name4">Unknown 10</persName>, and <persName xml:id="AnonGrp-02-name5">Unknown 11</persName> 
+                        were in a <persName xml:id="AnonGrp-02-name-2">group of 4 Unknown Mexicans</persName> lynched on <date when="1855-05">May 1855</date>.
+                  </desc>
+               </relation>
+            </listRelation>
+         </listPerson>
+         <listPerson>
+            <person xml:id="Anon-02">
+               <persName xml:id="Anon-02-name1">Unknown</persName>
+               <death>
+                  <date when="1855-12-01">1 Dec. 1855</date>
+                  <location>
+                     <placeName role="Corpus">Corpus Christi</placeName>
+                  </location>.
+               </death>
+               <listEvent>
+                  <event>
+                     <desc>
+                        An <persName ref="#Anon-02">Unknown</persName> individual, presumably male was lynched on <date when="1855-12-01">1 Dec. 1855</date> in <location><placeName role="Corpus">Corpus Christi</placeName></location>.
+                        He was charged with murder. He was taken from his jail cell and hanged.
+                     </desc>
+                  </event>
+               </listEvent>
+               <bibl xml:id="biblynched-4">
+                  <title><placeName type="newspaper">San Antonio Ledger</placeName></title>, <date when="1855-12-22">22 Dec. 1855</date>
+               </bibl>
+            </person>
+         </listPerson>
+         <listPerson>
+            <person xml:id="NicanorUrdiales">
+               <persName xml:id="NicanorUrdiales-name1">Nicanor Urdiales</persName>
+               <death>
+                  <date when="1858-05-29">29 May 1858</date>
+                  <measure>Near</measure>
+                  <location>
+                     <placeName role="SanAntonio">San Antonio</placeName>
+                  </location>.
+               </death>
+               <listEvent>
+                  <event>
+                     <desc>
+                        <persName ref="#NicanorUrdiales">Nincanor Urdiales</persName>  was lynched on <date when="1858-05-29">29 May 1858</date> in <location><placeName role="SanAntonio">San Antonio</placeName></location>.
+                        He was charged with theft. He was seized by a band of thirty masked men from Mission San Jose and hanged.
+                     </desc>
+                  </event>
+               </listEvent>
+               <bibl xml:id="biblynched-5">
+                  <title><placeName type="newspaper">San Antonio Ledger</placeName></title>, <date when="1858-06-12">12 June 1858</date>
+               </bibl>
+            </person>
+         </listPerson>      
+         <listPerson>
+            <person xml:id="PabloLongoria">
+               <persName xml:id="PabloLongoria-name1">Nicanor Urdiales</persName>
+               <death>
+                  <date when="1858-05-29">29 May 1858</date>
+                  <measure>Near</measure>
+                  <location>
+                     <placeName role="SanAntonio">San Antonio</placeName>
+                  </location>.
+               </death>
+               <listEvent>
+                  <event>
+                     <desc>
+                        <persName ref="#PabloLongoria">Pablo Longoria</persName> was lynched on <date when="1858-05-29">29 May 1858</date> in <location><placeName role="SanAntonio">San Antonio</placeName></location>.
+                        He was charged with theft. He was seized by a band of thirty masked men from Mission San Jose and hanged.
+                     </desc>
+                  </event>
+               </listEvent>
+               <bibl xml:id="biblynched-5">
+                  <title><placeName type="newspaper">San Antonio Ledger</placeName></title>, <date when="1858-06-12">12 June 1858</date>
+               </bibl>
+            </person>
+         </listPerson>
+         <listPerson>
+            <person xml:id="FranciscoHuizan">
+               <persName xml:id="FranciscoHuizan-name1">Francisco Huizan</persName>
+               <death>
+                  <date when="1858-05-29">29 May 1858</date>
+                  <measure>Near</measure>
+                  <location>
+                     <placeName role="SanAntonio">San Antonio</placeName>
+                  </location>.
+               </death>
+               <listEvent>
+                  <event>
+                     <desc>
+                        <persName ref="#FranciscoHuizan">Francisco Huizan</persName> was lynched on <date when="1858-05-29">29 May 1858</date> in <location><placeName role="SanAntonio">San Antonio</placeName></location>.
+                        He was charged with theft. He was seized by a band of thirty masked men from Mission San Jose and hanged.
+                     </desc>
+                  </event>
+               </listEvent>
+               <bibl xml:id="biblynched-5">
+                  <title><placeName type="newspaper">San Antonio Ledger</placeName></title>, <date when="1858-06-12">12 June 1858</date>
+               </bibl>
+            </person>
+         </listPerson>      
+         <listPerson>
+            <person xml:id="FelipeLopez">
+               <persName xml:id="FelipeLopez-name1">Felipe Lopez</persName>
+               <death>
+                  <date when="1858-05-29">29 May 1858</date>
+                  <measure>Near</measure>
+                  <location>
+                     <placeName role="SanAntonio">San Antonio</placeName>
+                  </location>.
+               </death>
+               <listEvent>
+                  <event>
+                     <desc>
+                        <persName ref="#FelipeLopez">Felipe Lopez</persName> was lynched on <date when="1858-05-29">29 May 1858</date> in <location><placeName role="SanAntonio">San Antonio</placeName></location>.
+                        He was charged with theft. He was seized by a band of thirty masked men from Mission San Jose and hanged.
+                     </desc>
+                  </event>
+               </listEvent>
+               <bibl xml:id="biblynched-5">
+                  <title><placeName type="newspaper">San Antonio Ledger</placeName></title>, <date when="1858-06-12">12 June 1858</date>
+               </bibl>
+            </person>
+         </listPerson>  
+         <listPerson>
+            <person xml:id="TomásCabrera">
+               <persName xml:id="TomásCabrera-name1">Tomás Cabrera</persName>
+               <death>
+                  <date when="1859-11-12">12 Nov. 1859</date>
+                  <location>
+                     <placeName role="Bville">Brownsville</placeName>
+                  </location>.
+               </death>
+               <listEvent>
+                  <event>
+                     <desc>
+                        <persName ref="#TomásCabrera">Tomás Cabrera</persName> was lynched on <date when="1859-11-12">12 Nov. 1859</date> in <location><placeName role="Bville">Brownsville</placeName></location>.
+                        He was charged with murder. He was taken from his jail cell and hanged under the cover of the night.
+                     </desc>
+                  </event>
+               </listEvent>
+               <bibl xml:id="biblynched-6">
+                  <title><placeName type="newspaper">Corpus Christi Ranchero</placeName></title>, <date when="1859-11-26">26 Nov. 1859</date>
+               </bibl>
+            </person>
+         </listPerson>
+         <listPerson>
+            <personGrp xml:id="AnonGrp-03">
+               <persName xml:id="AnonGrp-03-name1">Group of 7 Unknown Mexicans</persName>
+               <death>
+                  <measure>Late</measure>
+                  <date when="1868">Summer 1868</date>
+                  <location>
+                     <placeName role="Borne">Boerne</placeName>
+                  </location>.
+               </death>
+               <listEvent>
+                  <event>
+                     <desc>
+                        7 unknown Mexicans, presumably male, were lynched <measure>late</measure> in the <date when="1868">summer of 1868</date> in <placeName role="Boerne">Boerne</placeName>.
+                        They were charged with murder. As a result, they were hanged indiscriminately.
+                     </desc>
+                  </event>
+               </listEvent>
+               <bibl xml:id="biblynched-7">
+                  <title><placeName type="newspaper">San Antonio Herald</placeName></title>, <date when="1868-09-20">20 Sept. 1868</date>
+               </bibl>
+            </personGrp>
+            <listRelation>
+               <relation name="memberOf" active="#Anon08 #Anon09 #Anon10 #Anon11" passive="AnonGrp-03">
+                  <desc>
+                     <persName xml:id="AnonGrp-03-name2">Unknown 13</persName>, <persName xml:id="AnonGrp-02-name3">Unknown 14</persName>, 
+                     <persName xml:id="AnonGrp-02-name4">Unknown 15</persName>, <persName xml:id="AnonGrp-02-name5">Unknown 16</persName>,
+                     <persName xml:id="AnonGrp-02-name6">Unknown 17</persName>, <persName xml:id="AnonGrp-02-name7">Unknown 18</persName>,
+                     and <persName xml:id="AnonGrp-02-name8">Unknown 19</persName> were in a <persName xml:id="AnonGrp-03-name1">group of 7 Unknown Mexicans</persName> lynched late in the <date when="1868">summer of 1868</date>.
+                  </desc>
+               </relation>
+            </listRelation>
+         </listPerson> 
+         <listPerson>
+            <person xml:id="Anon-03">
+               <persName xml:id="Anon-03-name1">Unknown</persName>
+               <death>
+                  <date when="1872-01-12">12 Jan. 1872</date>
+                  <location>
+                     <placeName role="Banq">Banquette</placeName>
+                  </location>.
+               </death>
+               <listEvent>
+                  <event>
+                     <desc>
+                        An <persName ref="#Anon-03">Unknown</persName> individual, presumably male was lynched on <date when="1872-01-12">12 Jan. 1872</date> in <location><placeName role="Banq">Banquette</placeName></location>.
+                        He was charged with theft. He was hanged for his presumed crime.
+                     </desc>
+                  </event>
+               </listEvent>
+               <bibl xml:id="biblynched-8">
+                  <title><placeName type="newspaper">Corpus Christi Nueces Valley</placeName></title>, <date when="1872-01-27">27 Jan. 1872</date>
+               </bibl>
+            </person>
+         </listPerson>
+         <listPerson>
+            <person xml:id="Anon-04">
+               <persName xml:id="Anon-04-name1">Unknown</persName>
+               <death>
+                  <date when="1872-10-12">12 Oct. 1872</date>
+                  <location>
+                     <placeName role="LimeCount">Limestone County</placeName>
+                  </location>.
+               </death>
+               <listEvent>
+                  <event>
+                     <desc>
+                        An <persName ref="#Anon-04">Unknown</persName> individual, presumably male was lynched on <date when="1872-10-12">12 Oct. 1872</date> in <location><placeName role="LimeCount">Limestone County</placeName></location>.
+                        He was charged with theft. He was hanged taken from his home and hanged by eight or nine men.
+                     </desc>
+                  </event>
+               </listEvent>
+               <bibl xml:id="biblynched-9">
+                  <title><placeName type="newspaper">McKinney Messenger</placeName></title>, <date when="1872-11-09">9 Nov. 1872</date>
+               </bibl>
+            </person>
+         </listPerson>
+         <listPerson>
+         <personGrp xml:id="AnonGrp-04">
+            <persName xml:id="AnonGrp-04-name1">Group of 3 Unknown Mexicans</persName>
+            <death>
+               <date when="1874-05-12">12 May 1874</date>
+               <location>
+                  <placeName role="CayLake">Cayman Lake</placeName>
+               </location>.
+            </death>
+            <listEvent>
+               <event>
+                  <desc>
+                     3 unknown Mexicans, presumably male, were lynched on <date when="1874-05-12">12 May 1874</date> in <placeName role="CayLake">Cayman Lake</placeName>.
+                     They were charged with murder. They were hanged for their presumed crime..
+                  </desc>
+               </event>
+            </listEvent>
+            <bibl xml:id="biblynched-10">
+               <title><placeName type="newspaper">Galveston Daily News</placeName></title>, <date when="1874-05-14">14 May 1874</date>
+            </bibl>
+         </personGrp>
+         <listRelation>
+            <relation name="memberOf" active="#Anon22 #Anon23 #Anon24" passive="AnonGrp-04">
+               <desc>
+                  <persName xml:id="AnonGrp-04-name2">Unknown 22</persName>, <persName xml:id="AnonGrp-04-name3">Unknown 23</persName>, 
+                  and <persName xml:id="AnonGrp-04-name4">Unknown 24</persName> were in a <persName xml:id="AnonGrp-04-name1">group of 3 Unknown Mexicans</persName> lynched on the <date when="1874-05-12">12 May 1874</date>.
+               </desc>
+            </relation>
+         </listRelation>
+         </listPerson> 
+         <listPerson>
+            <person xml:id="FranciscoRomirez">
+               <persName xml:id="FranciscoRomirez-name1">Francisco Romirez</persName>
+               <death>
+                  <date when="1874-08-27">27 Aug. 1874</date>
+                  <measure>Near</measure>
+                  <location>
+                     <placeName role="Bville">Brownsville</placeName>
+                  </location>.
+               </death>
+               <listEvent>
+                  <event>
+                     <desc>
+                        <persName ref="#FranciscoRomirez">Francisco Romirez</persName> was lynched on <date when="1874-08-27">27 Aug. 1874</date> <measure>near</measure> <location><placeName role="Bville">Brownsville</placeName></location>.
+                        He was not charged with anything, except under suspicion of being "one of Cortina's men". He was hanged.
+                     </desc>
+                  </event>
+               </listEvent>
+               <bibl xml:id="biblynched-11">
+                  <title><placeName type="newspaper">Galveston Daily News</placeName></title>, <date when="1874-08-29">29 Aug. 1874</date>
+               </bibl>
+            </person>
+         </listPerson>
+         <listPerson>
+            <person xml:id="AntonioGuerra">
+               <persName xml:id="AntonioGuerra-name1">Antonio Guerra</persName>
+               <death>
+                  <date when="1874-08-27">15 Dec. 1874</date>
+                  <measure>Near</measure>
+                  <location>
+                     <placeName role="Bville">Brownsville</placeName>
+                  </location>.
+               </death>
+               <listEvent>
+                  <event>
+                     <desc>
+                        <persName ref="#AntonioGuerra">Antonio Guerra</persName> was lynched on <date when="1874-08-27">15 Dec. 1874</date> <measure>near</measure> <location><placeName role="Bville">Brownsville</placeName></location>.
+                        He crime is unknown, but he was hanged alongside <persName ref="#PedroGarza">Pedro Garza</persName>.
+                     </desc>
+                  </event>
+               </listEvent>
+               <bibl xml:id="biblynched-12">
+                  <title><placeName type="newspaper">Galveston Daily News</placeName></title>, <date when="1874-12-17">17 Dec. 1874</date>
+               </bibl>
+            </person>
+         </listPerson>
+         <listPerson>
+            <person xml:id="PedroGarza">
+               <persName xml:id="PedroGarza-name1">Pedro Garza</persName>
+               <death>
+                  <date when="1874-08-27">15 Dec. 1874</date>
+                  <measure>Near</measure>
+                  <location>
+                     <placeName role="Bville">Brownsville</placeName>
+                  </location>.
+               </death>
+               <listEvent>
+                  <event>
+                     <desc>
+                        <persName ref="#PedroGarza">Pedro Garza</persName> was lynched on <date when="1874-08-27">15 Dec. 1874</date> <measure>near</measure> <location><placeName role="Bville">Brownsville</placeName></location>.
+                        He crime is unknown, but he was hanged alongside <persName ref="#AntonioGuerra">Pedro Garza</persName>.
+                     </desc>
+                  </event>
+               </listEvent>
+               <bibl xml:id="biblynched-12">
+                  <title><placeName type="newspaper">Galveston Daily News</placeName></title>, <date when="1874-12-17">17 Dec. 1874</date>
+               </bibl>
+            </person>
+         </listPerson>
+         <listPerson>
+            <personGrp xml:id="AnonGrp-05">
+               <persName xml:id="AnonGrp-05-name1">Group of 8 Unknown Mexicans</persName>
+               <death>
+                  <date when="1876-02-02">02 Feb. 1876</date>
+                  <location>
+                     <placeName role="Edinburgh">Edinburugh</placeName>
+                  </location>.
+               </death>
+               <listEvent>
+                  <event>
+                     <desc>
+                        8 unknown Mexicans, presumably male, were lynched on <date when="1876-02-02">02 Feb. 1876</date> in <placeName role="Edinburgh">Edinburgh</placeName>.
+                        They were charged with murder. They were hanged for their presumed crime.
+                     </desc>
+                  </event>
+               </listEvent>
+               <bibl xml:id="biblynched-13">
+                  <title><placeName type="newspaper">New York Times</placeName></title>, <date when="1876-02-21">21 Feb. 1876</date>
+               </bibl>
+            </personGrp>
+            <listRelation>
+               <relation name="memberOf" active="#Anon25 #Anon26 #Anon27 #Anon28 #Anon29 #Anon30 #Anon31 #Anon32" passive="AnonGrp-05">
+                  <desc>
+                     <persName xml:id="AnonGrp-05-name2">Unknown 25</persName>, <persName xml:id="AnonGrp-05-name3">Unknown 26</persName>,
+                     <persName xml:id="AnonGrp-05-name4">Unknown 27</persName>, <persName xml:id="AnonGrp-05-name5">Unknown 28</persName>,
+                     <persName xml:id="AnonGrp-05-name6">Unknown 29</persName>, <persName xml:id="AnonGrp-05-name7">Unknown 30</persName>,
+                     <persName xml:id="AnonGrp-05-name8">Unknown 31</persName>, and <persName xml:id="AnonGrp-05-name9">Unknown 32</persName> 
+                     were in a <persName xml:id="AnonGrp-05-name1">group of 8 Unknown Mexicans</persName> lynched on the <date when="1876-02-02">02 Feb. 1876</date>.
+                  </desc>
+               </relation>
+            </listRelation>
+         </listPerson>
+         <listPerson>
+            <personGrp xml:id="AnonGrp-06">
+               <persName xml:id="AnonGrp-06-name1">Group of 5 Unknown Mexicans</persName>
+               <death>
+                  <date when="1877-06-14">14 June 1877</date>
+                  <location>
+                     <measure>Near</measure>
+                     <placeName role="Bonham">Bonham</placeName>
+                  </location>.
+               </death>
+               <listEvent>
+                  <event>
+                     <desc>
+                        5 unknown Mexicans, presumably male, were lynched on <date when="1877-06-14">14 June 1877</date> <measure>near</measure> <placeName role="Bonham">Bonham</placeName>.
+                        They were charged with murder and sexual assault. They were executed by a posse for murdering a man, a boy, and "outraging" three women.
+                     </desc>
+                  </event>
+               </listEvent>
+               <bibl xml:id="biblynched-14">
+                  <title><placeName type="newspaper">Bonham News</placeName></title>, <date when="1877-06-15">15 June 1877</date>
+               </bibl>
+            </personGrp>
+            <listRelation>
+               <relation name="memberOf" active="#Anon33 #Anon34 #Anon35 #Anon36 #Anon37" passive="AnonGrp-06">
+                  <desc>
+                     <persName xml:id="AnonGrp-06-name2">Unknown 33</persName>, <persName xml:id="AnonGrp-06-name3">Unknown 34</persName>,
+                     <persName xml:id="AnonGrp-06-name4">Unknown 35</persName>, <persName xml:id="AnonGrp-06-name5">Unknown 36</persName>,
+                     and <persName xml:id="AnonGrp-06-name6">Unknown 37</persName> were in a <persName xml:id="AnonGrp-06-name1">group of 5 Unknown Mexicans</persName>
+                     executed on the <date when="1877-06-14">14 June 1877</date>.
+                  </desc>
+               </relation>
+            </listRelation>
+         </listPerson>
+         <listPerson>
+            <personGrp xml:id="AnonGrp-07">
+               <persName xml:id="AnonGrp-07-name1">Group of 2 Unknown Mexicans</persName>
+               <death>
+                  <date when="1877-07-07">07 July 1877</date>
+                  <location>
+                     <measure>Near</measure>
+                     <placeName role="Banq">Banquette</placeName>
+                  </location>.
+               </death>
+               <listEvent>
+                  <event>
+                     <desc>
+                        2 unknown Mexicans, presumably male, were lynched on <date when="1877-07-07">07 July 1877</date> <measure>near</measure> <placeName role="Banq">Banquette</placeName>.
+                        They were charged with murder. They were "made to pay the penalty of their crimes" by a posse for murdering a father and his son, a boy.
+                     </desc>
+                  </event>
+               </listEvent>
+               <bibl xml:id="biblynched-15">
+                  <title><placeName type="newspaper">Corpus Christi Weekly Gazette</placeName></title>, <date when="1877-07-14">14 July 1877</date>
+               </bibl>
+            </personGrp>
+            <listRelation>
+               <relation name="memberOf" active="#Anon38 #Anon39" passive="AnonGrp-07">
+                  <desc>
+                     <persName xml:id="AnonGrp-07-name2">Unknown 38</persName> and <persName xml:id="AnonGrp-07-name3">Unknown 39</persName> 
+                     were in a <persName xml:id="AnonGrp-07-name1">group of 2 Unknown Mexicans</persName> executed on the <date when="1877-07-07">07 July 1877</date>.
+                  </desc>
+               </relation>
+            </listRelation>
+         </listPerson>    
+      </body>
+  </text>
+</TEI>
