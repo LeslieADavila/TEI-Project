@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_customization.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="ListofLynchingVictims" start="TEI">
+        <desc/>
+        <moduleRef key="header" include="authority availability fileDesc publicationStmt sourceDesc teiHeader titleStmt"/>
+        <moduleRef key="core" include="author bibl biblScope citedRange date editor head name note p pb pubPlace publisher resp respStmt title"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="textstructure" include="body dateline div text trailer"/>
+        <moduleRef key="namesdates" include="persName placeName"/>
+        
+        <elementSpec ident="persName" module="namesdates" mode="change">
+          <content>
+            <textNode/>
+            <elementRef key="placeName"/>
+          </content>
+          <attList>
+            <attDef ident="ref">
+              <valList type="closed">
+                <valItem ident="#JuanCGuerra">
+                  <gloss>Juan Chapa Guerra</gloss>
+                </valItem>
+                <valItem ident="#NicanorUrdiales">
+                  <gloss>Nicanor Urdiales</gloss>
+                </valItem>
+                <valItem ident="#PabloLongoria">
+                  <gloss>Pablo Longoria</gloss>
+                </valItem>
+                <valItem ident="#FranciscoHuizan">
+                  <gloss>#Francisco Huizan</gloss>
+                </valItem>
+                <valItem ident="#FelipeLopez">
+                  <gloss>Felipe Lopez</gloss>
+                </valItem>
+                <valItem ident="#TomásCabrera">
+                  <gloss>Tomás Cabrera</gloss>
+                </valItem>
+                <valItem ident="#FranciscoRomirez">
+                  <gloss>Francisco Romirez</gloss>
+                </valItem>
+                <valItem ident="#AntonioGuerra">
+                  <gloss>Antonio Guerra</gloss>
+                </valItem>
+                <valItem ident="#PedroGarza">
+                  <gloss>Pedro Garza</gloss>
+                </valItem>
+               
+               <valItem ident="#Anon-01">
+                  <gloss>Unknown</gloss>
+                </valItem>
+                <valItem ident="#AnonGrp-01">
+                  <gloss>Group of 6 Unknown Mexicans</gloss>
+                </valItem>
+                <valItem ident="#AnonGrp-02">
+                  <gloss>Group of 4 Unknown Mexicans</gloss>
+                </valItem>
+                <valItem ident="#Anon-02">
+                  <gloss>Unknown</gloss>
+                </valItem>
+                <valItem ident="#AnonGrp-03">
+                  <gloss>Group of 7 Unknown Mexicans</gloss>
+                </valItem>
+                <valItem ident="#Anon-03">
+                  <gloss>Unknown</gloss>
+                </valItem>
+                <valItem ident="#Anon-04">
+                  <gloss>Unknown</gloss>
+                </valItem>
+                <valItem ident="#AnonGrp-04">
+                  <gloss>Group of 3 Unknown Mexicans</gloss>
+                </valItem>
+                <valItem ident="#AnonGrp-05">
+                  <gloss>Group of 8 Unknown Mexicans</gloss>
+                </valItem>
+                <valItem ident="#AnonGrp-06">
+                  <gloss>Group of 5 Unknown Mexicans</gloss>
+                </valItem>
+                <valItem ident="#AnonGrp-07">
+                  <gloss>Group of 2 Unknown Mexicans</gloss>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="placeName" module="namesdates" mode="change">
+          <content>
+            <textNode/>
+          </content>
+          <attList>
+            <attDef ident="ref">
+              <valList type="closed">
+                <valItem ident="#Bville">
+                  <gloss>Brownsville</gloss>
+                </valItem>
+                <valItem ident="#RGCity">
+                  <gloss>Rio Grande City</gloss>
+                <valItem ident="#ElPaso">
+                  <gloss>El Paso</gloss>
+                </valItem>
+                <valItem ident="#Corpus">
+                  <gloss>Corpus Christi</gloss>
+                <valItem ident="#SanAntonio">
+                  <gloss>San Antonio</gloss>
+                </valItem>
+                <valItem ident="#Boerne">
+                  <gloss>Boerne</gloss>
+                <valItem ident="#Banq">
+                  <gloss>Banquette</gloss>
+                </valItem>
+                <valItem ident="#LimeCount">
+                  <gloss>Limestone County</gloss>                  
+                <valItem ident="#CayLake">
+                  <gloss>Cayman Lake</gloss>
+                </valItem>
+                <valItem ident="#Edinburgh">
+                  <gloss>Edinburgh</gloss>
+                <valItem ident="#Bonham">
+                  <gloss>Bonham</gloss>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="p" module="core" mode="change">
+          <content>
+            <sequence preserveOrder="false">
+              <elementRef key="note"/>
+              <elementRef key="pb"/>
+              <elementRef key="persName"/>
+              <elementRef key="placeName"/>
+            </sequence>
+          </content>
+          <constraintSpec ident="pInHeader" scheme="schematron">
+            <constraint>
+              <sch:rule context="tei:teiHeader//p">
+                <sch:report test="tei:note">
+                  A &lt;p&gt; element in the &lt;teiHeader&gt; may not contain a &lt;note&gt; element.
+                </sch:report>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+        </elementSpec>
+        
+       
+        
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>
