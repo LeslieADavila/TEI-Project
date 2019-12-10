@@ -41,7 +41,7 @@
                <listEvent>
                   <event>
                      <desc>
-                        <persName ref="#JuanCGuerra">Juan</persName> was lynched on <date when="1850-01">Jan. 1850</date> near <location><placeName role="Bville">Brownsville</placeName></location>.
+                        <persName ref="#JuanCGuerra">Juan Chapa Guerra</persName> was lynched on <date when="1850-01">Jan. 1850</date> near <location><placeName role="Bville">Brownsville</placeName></location>.
                         He was charged with theft. He was whipped and then killed by a small group of men under mistaken 
                         impression that victim was Juan Chapa Garcia.
                      </desc>
@@ -70,7 +70,7 @@
                   </event>
                </listEvent>
                <bibl xml:id="biblynched-2">
-                  <title><placeName type="newspaper">New York Times</placeName></title>, <date when="1852-05-13">13 May 1852</date>
+                  <title>New York Times</title>, <date when="1852-05-13">13 May 1852</date>
                </bibl>
             </person>
          </listPerson> 
@@ -93,7 +93,7 @@
                   </event>
                </listEvent>
                <bibl xml:id="biblynched-2">
-                  <title><placeName type="newspaper">New York Times</placeName></title>, <date when="1852-05-13">13 May 1852</date>
+                  <title>New York Times</title>, <date when="1852-05-13">13 May 1852</date>
                </bibl>
             </personGrp>
             <listRelation>
@@ -126,7 +126,7 @@
                   </event>
                </listEvent>
                <bibl xml:id="biblynched-3">
-                  <title><placeName type="newspaper">New York Times</placeName></title>, <date when="1855-05-12">12 May 1855</date>
+                  <title>New York Times</title>, <date when="1855-05-12">12 May 1855</date>
                </bibl>
             </personGrp>
             <listRelation>
@@ -157,7 +157,7 @@
                   </event>
                </listEvent>
                <bibl xml:id="biblynched-4">
-                  <title><placeName type="newspaper">San Antonio Ledger</placeName></title>, <date when="1855-12-22">22 Dec. 1855</date>
+                  <title>San Antonio Ledger</title>, <date when="1855-12-22">22 Dec. 1855</date>
                </bibl>
             </person>
          </listPerson>
@@ -180,13 +180,13 @@
                   </event>
                </listEvent>
                <bibl xml:id="biblynched-5">
-                  <title><placeName type="newspaper">San Antonio Ledger</placeName></title>, <date when="1858-06-12">12 June 1858</date>
+                  <title>>San Antonio Ledger</title>, <date when="1858-06-12">12 June 1858</date>
                </bibl>
             </person>
          </listPerson>      
          <listPerson>
             <person xml:id="PabloLongoria">
-               <persName xml:id="PabloLongoria-name1">Nicanor Urdiales</persName>
+               <persName xml:id="PabloLongoria-name1">Pablo Longoria</persName>
                <death>
                   <date when="1858-05-29">29 May 1858</date>
                   <measure>Near</measure>
@@ -203,7 +203,7 @@
                   </event>
                </listEvent>
                <bibl xml:id="biblynched-5">
-                  <title><placeName type="newspaper">San Antonio Ledger</placeName></title>, <date when="1858-06-12">12 June 1858</date>
+                  <title>San Antonio Ledger, <date when="1858-06-12">12 June 1858</date>
                </bibl>
             </person>
          </listPerson>
@@ -226,7 +226,7 @@
                   </event>
                </listEvent>
                <bibl xml:id="biblynched-5">
-                  <title><placeName type="newspaper">San Antonio Ledger</placeName></title>, <date when="1858-06-12">12 June 1858</date>
+                  <title>San Antonio Ledger</title>, <date when="1858-06-12">12 June 1858</date>
                </bibl>
             </person>
          </listPerson>      
@@ -249,7 +249,7 @@
                   </event>
                </listEvent>
                <bibl xml:id="biblynched-5">
-                  <title><placeName type="newspaper">San Antonio Ledger</placeName></title>, <date when="1858-06-12">12 June 1858</date>
+                  <title>>San Antonio Ledger</title>, <date when="1858-06-12">12 June 1858</date>
                </bibl>
             </person>
          </listPerson>  
@@ -271,7 +271,7 @@
                   </event>
                </listEvent>
                <bibl xml:id="biblynched-6">
-                  <title><placeName type="newspaper">Corpus Christi Ranchero</placeName></title>, <date when="1859-11-26">26 Nov. 1859</date>
+                  <title>Corpus Christi Ranchero</title>, <date when="1859-11-26">26 Nov. 1859</date>
                </bibl>
             </person>
          </listPerson>
@@ -282,7 +282,7 @@
                   <measure>Late</measure>
                   <date when="1868">Summer 1868</date>
                   <location>
-                     <placeName role="Borne">Boerne</placeName>
+                     <placeName role="Boerne">Boerne</placeName>
                   </location>.
                </death>
                <listEvent>
@@ -294,7 +294,7 @@
                   </event>
                </listEvent>
                <bibl xml:id="biblynched-7">
-                  <title><placeName type="newspaper">San Antonio Herald</placeName></title>, <date when="1868-09-20">20 Sept. 1868</date>
+                  <title>San Antonio Herald</title>, <date when="1868-09-20">20 Sept. 1868</date>
                </bibl>
             </personGrp>
             <listRelation>
@@ -326,7 +326,7 @@
                   </event>
                </listEvent>
                <bibl xml:id="biblynched-8">
-                  <title><placeName type="newspaper">Corpus Christi Nueces Valley</placeName></title>, <date when="1872-01-27">27 Jan. 1872</date>
+                  <title>Corpus Christi Nueces Valley</title>, <date when="1872-01-27">27 Jan. 1872</date>
                </bibl>
             </person>
          </listPerson>
@@ -348,7 +348,7 @@
                   </event>
                </listEvent>
                <bibl xml:id="biblynched-9">
-                  <title><placeName type="newspaper">McKinney Messenger</placeName></title>, <date when="1872-11-09">9 Nov. 1872</date>
+                  <title>>McKinney Messenger</title>, <date when="1872-11-09">9 Nov. 1872</date>
                </bibl>
             </person>
          </listPerson>
@@ -370,7 +370,7 @@
                </event>
             </listEvent>
             <bibl xml:id="biblynched-10">
-               <title><placeName type="newspaper">Galveston Daily News</placeName></title>, <date when="1874-05-14">14 May 1874</date>
+               <title>Galveston Daily News</title>, <date when="1874-05-14">14 May 1874</date>
             </bibl>
          </personGrp>
          <listRelation>
@@ -401,7 +401,7 @@
                   </event>
                </listEvent>
                <bibl xml:id="biblynched-11">
-                  <title><placeName type="newspaper">Galveston Daily News</placeName></title>, <date when="1874-08-29">29 Aug. 1874</date>
+                  <title>Galveston Daily News></title>, <date when="1874-08-29">29 Aug. 1874</date>
                </bibl>
             </person>
          </listPerson>
@@ -424,7 +424,7 @@
                   </event>
                </listEvent>
                <bibl xml:id="biblynched-12">
-                  <title><placeName type="newspaper">Galveston Daily News</placeName></title>, <date when="1874-12-17">17 Dec. 1874</date>
+                  <title>Galveston Daily News</title>, <date when="1874-12-17">17 Dec. 1874</date>
                </bibl>
             </person>
          </listPerson>
@@ -447,7 +447,7 @@
                   </event>
                </listEvent>
                <bibl xml:id="biblynched-12">
-                  <title><placeName type="newspaper">Galveston Daily News</placeName></title>, <date when="1874-12-17">17 Dec. 1874</date>
+                  <title>Galveston Daily News</title>, <date when="1874-12-17">17 Dec. 1874</date>
                </bibl>
             </person>
          </listPerson>
@@ -469,7 +469,7 @@
                   </event>
                </listEvent>
                <bibl xml:id="biblynched-13">
-                  <title><placeName type="newspaper">New York Times</placeName></title>, <date when="1876-02-21">21 Feb. 1876</date>
+                  <title>New York Times</title>, <date when="1876-02-21">21 Feb. 1876</date>
                </bibl>
             </personGrp>
             <listRelation>
@@ -503,7 +503,7 @@
                   </event>
                </listEvent>
                <bibl xml:id="biblynched-14">
-                  <title><placeName type="newspaper">Bonham News</placeName></title>, <date when="1877-06-15">15 June 1877</date>
+                  <title>Bonham News</title>, <date when="1877-06-15">15 June 1877</date>
                </bibl>
             </personGrp>
             <listRelation>
@@ -536,7 +536,7 @@
                   </event>
                </listEvent>
                <bibl xml:id="biblynched-15">
-                  <title><placeName type="newspaper">Corpus Christi Weekly Gazette</placeName></title>, <date when="1877-07-14">14 July 1877</date>
+                  <title>Corpus Christi Weekly Gazette</title>, <date when="1877-07-14">14 July 1877</date>
                </bibl>
             </personGrp>
             <listRelation>
