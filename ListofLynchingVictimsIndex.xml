@@ -35,13 +35,13 @@
                   <date when="1850-01">Jan. 1850</date>
                   <location>
                      <measure>Near</measure>
-                     <placeName role="Bville">Brownsville</placeName>
+                     <placeName ref="Bville">Brownsville</placeName>
                   </location>.
                </death>
                <listEvent>
                   <event>
                      <desc>
-                        <persName ref="#JuanCGuerra">Juan Chapa Guerra</persName> was lynched on <date when="1850-01">Jan. 1850</date> near <location><placeName role="Bville">Brownsville</placeName></location>.
+                        <persName ref="#JuanCGuerra">Juan Chapa Guerra</persName> was lynched on <date when="1850-01">Jan. 1850</date> near <location><placeName ref="Bville">Brownsville</placeName></location>.
                         He was charged with theft. He was whipped and then killed by a small group of men under mistaken 
                         impression that victim was Juan Chapa Garcia.
                      </desc>
@@ -58,13 +58,13 @@
                <death>
                   <date when="1852-04">April 1852</date>
                   <location>
-                     <placeName role="RGCity">Rio Grande City</placeName>
+                     <placeName ref="RGCity">Rio Grande City</placeName>
                   </location>.
                </death>
                <listEvent>
                   <event>
                      <desc>
-                        An unknown individual, presumably male, was lynched on <date when="1852-04">April 1852</date> in the <location><placeName role="RGCity">Rio Grande Valley</placeName></location>.
+                        <persName ref="#Anon-011">An unknown individual</persName>, presumably male, was lynched on <date when="1852-04">April 1852</date> in the <location><placeName ref="RGCity">Rio Grande Valley</placeName></location>.
                         He was charged with murder. He was hung by citizens in the presence of the "—all concurring."
                      </desc>
                   </event>
@@ -81,13 +81,13 @@
                   <date when="1852-04">Apr. 1852</date>
                   <location>
                      <measure>Outside</measure>
-                     <placeName role="RGCity">Rio Grande City</placeName>
+                     <placeName ref="RGCity">Rio Grande City</placeName>
                   </location>.
                </death>
                <listEvent>
                   <event>
                      <desc>
-                        6 unknown Mexicans, presumably male, were lynched on <date when="1852-04">Apr. 1852</date> in "The Wells," an area outside of <location><placeName role="RGCity">Rio Grance City</placeName></location>.
+                        <persName ref="#AnonGrp-01">6 unknown Mexicans</persName>, presumably male, were lynched on <date when="1852-04">Apr. 1852</date> in "The Wells," an area outside of <location><placeName ref="RGCity">Rio Grance City</placeName></location>.
                         They were charged with the murder of <persName>Thomas Harris</persName>. They were charged upon and shot dead by Anglos for their actions.
                      </desc>
                   </event>
@@ -114,19 +114,19 @@
                   <measure>Early</measure>
                   <date when="1855-05">May 1855</date>
                   <location>
-                     <placeName role="ElPaso">El Paso</placeName>
+                     <placeName ref="ElPaso">El Paso</placeName>
                   </location>.
                </death>
                <listEvent>
                   <event>
                      <desc>
-                        4 unknown Mexicans, presumably male, were lynched on in <date when="1855-05">May 1855</date> in <placeName role="ElPaso">El Paso</placeName>.
+                        <persName ref="#AnonGrp-02">4 unknown Mexicans</persName>, presumably male, were lynched on in <date when="1855-05">May 1855</date> in <placeName ref="ElPaso">El Paso</placeName>.
                         They were charged with sexual assault, presumably of a female. They were hung to satisfy the outrage of the family.
                      </desc>
                   </event>
                </listEvent>
                <bibl xml:id="biblynched-3">
-                  <title>New York Times</title>, <date when="1855-05-12">12 May 1855</date>
+                  <title>New York Times</title>, <date when="1855-05-12">12 May 1855</date>pablo
                </bibl>
             </personGrp>
             <listRelation>
@@ -145,13 +145,13 @@
                <death>
                   <date when="1855-12-01">1 Dec. 1855</date>
                   <location>
-                     <placeName role="Corpus">Corpus Christi</placeName>
+                     <placeName ref="Corpus">Corpus Christi</placeName>
                   </location>.
                </death>
                <listEvent>
                   <event>
                      <desc>
-                        An <persName ref="#Anon-02">Unknown</persName> individual, presumably male was lynched on <date when="1855-12-01">1 Dec. 1855</date> in <location><placeName role="Corpus">Corpus Christi</placeName></location>.
+                        An <persName ref="#Anon-02">Unknown</persName> individual, presumably male was lynched on <date when="1855-12-01">1 Dec. 1855</date> in <location><placeName ref="Corpus">Corpus Christi</placeName></location>.
                         He was charged with murder. He was taken from his jail cell and hanged.
                      </desc>
                   </event>
@@ -168,13 +168,13 @@
                   <date when="1858-05-29">29 May 1858</date>
                   <measure>Near</measure>
                   <location>
-                     <placeName role="SanAntonio">San Antonio</placeName>
+                     <placeName ref="SanAntonio">San Antonio</placeName>
                   </location>.
                </death>
                <listEvent>
                   <event>
                      <desc>
-                        <persName ref="#NicanorUrdiales">Nincanor Urdiales</persName>  was lynched on <date when="1858-05-29">29 May 1858</date> in <location><placeName role="SanAntonio">San Antonio</placeName></location>.
+                        <persName ref="#NicanorUrdiales">Nincanor Urdiales</persName>  was lynched on <date when="1858-05-29">29 May 1858</date> in <location><placeName ref="SanAntonio">San Antonio</placeName></location>.
                         He was charged with theft. He was seized by a band of thirty masked men from Mission San Jose and hanged.
                      </desc>
                   </event>
@@ -191,19 +191,19 @@
                   <date when="1858-05-29">29 May 1858</date>
                   <measure>Near</measure>
                   <location>
-                     <placeName role="SanAntonio">San Antonio</placeName>
+                     <placeName ref="SanAntonio">San Antonio</placeName>
                   </location>.
                </death>
                <listEvent>
                   <event>
                      <desc>
-                        <persName ref="#PabloLongoria">Pablo Longoria</persName> was lynched on <date when="1858-05-29">29 May 1858</date> in <location><placeName role="SanAntonio">San Antonio</placeName></location>.
+                        <persName ref="#PabloLongoria">Pablo Longoria</persName> was lynched on <date when="1858-05-29">29 May 1858</date> in <location><placeName ref="SanAntonio">San Antonio</placeName></location>.
                         He was charged with theft. He was seized by a band of thirty masked men from Mission San Jose and hanged.
                      </desc>
                   </event>
                </listEvent>
                <bibl xml:id="biblynched-5">
-                  <title>San Antonio Ledger, <date when="1858-06-12">12 June 1858</date>
+                  <title>San Antonio Ledger,</title> <date when="1858-06-12">12 June 1858</date>
                </bibl>
             </person>
          </listPerson>
@@ -214,13 +214,13 @@
                   <date when="1858-05-29">29 May 1858</date>
                   <measure>Near</measure>
                   <location>
-                     <placeName role="SanAntonio">San Antonio</placeName>
+                     <placeName ref="SanAntonio">San Antonio</placeName>
                   </location>.
                </death>
                <listEvent>
                   <event>
                      <desc>
-                        <persName ref="#FranciscoHuizan">Francisco Huizan</persName> was lynched on <date when="1858-05-29">29 May 1858</date> in <location><placeName role="SanAntonio">San Antonio</placeName></location>.
+                        <persName ref="#FranciscoHuizan">Francisco Huizan</persName> was lynched on <date when="1858-05-29">29 May 1858</date> in <location><placeName ref="SanAntonio">San Antonio</placeName></location>.
                         He was charged with theft. He was seized by a band of thirty masked men from Mission San Jose and hanged.
                      </desc>
                   </event>
@@ -237,13 +237,13 @@
                   <date when="1858-05-29">29 May 1858</date>
                   <measure>Near</measure>
                   <location>
-                     <placeName role="SanAntonio">San Antonio</placeName>
+                     <placeName ref="SanAntonio">San Antonio</placeName>
                   </location>.
                </death>
                <listEvent>
                   <event>
                      <desc>
-                        <persName ref="#FelipeLopez">Felipe Lopez</persName> was lynched on <date when="1858-05-29">29 May 1858</date> in <location><placeName role="SanAntonio">San Antonio</placeName></location>.
+                        <persName ref="#FelipeLopez">Felipe Lopez</persName> was lynched on <date when="1858-05-29">29 May 1858</date> in <location><placeName ref="SanAntonio">San Antonio</placeName></location>.
                         He was charged with theft. He was seized by a band of thirty masked men from Mission San Jose and hanged.
                      </desc>
                   </event>
@@ -259,13 +259,13 @@
                <death>
                   <date when="1859-11-12">12 Nov. 1859</date>
                   <location>
-                     <placeName role="Bville">Brownsville</placeName>
+                     <placeName ref="Bville">Brownsville</placeName>
                   </location>.
                </death>
                <listEvent>
                   <event>
                      <desc>
-                        <persName ref="#TomásCabrera">Tomás Cabrera</persName> was lynched on <date when="1859-11-12">12 Nov. 1859</date> in <location><placeName role="Bville">Brownsville</placeName></location>.
+                        <persName ref="#TomásCabrera">Tomás Cabrera</persName> was lynched on <date when="1859-11-12">12 Nov. 1859</date> in <location><placeName ref="Bville">Brownsville</placeName></location>.
                         He was charged with murder. He was taken from his jail cell and hanged under the cover of the night.
                      </desc>
                   </event>
@@ -282,13 +282,13 @@
                   <measure>Late</measure>
                   <date when="1868">Summer 1868</date>
                   <location>
-                     <placeName role="Boerne">Boerne</placeName>
+                     <placeName ref="Boerne">Boerne</placeName>
                   </location>.
                </death>
                <listEvent>
                   <event>
                      <desc>
-                        7 unknown Mexicans, presumably male, were lynched <measure>late</measure> in the <date when="1868">summer of 1868</date> in <placeName role="Boerne">Boerne</placeName>.
+                        <persName ref="#AnonGrp-03">7 unknown Mexicans</persName>, presumably male, were lynched <measure>late</measure> in the <date when="1868">summer of 1868</date> in <placeName ref="Boerne">Boerne</placeName>.
                         They were charged with murder. As a result, they were hanged indiscriminately.
                      </desc>
                   </event>
@@ -314,13 +314,13 @@
                <death>
                   <date when="1872-01-12">12 Jan. 1872</date>
                   <location>
-                     <placeName role="Banq">Banquette</placeName>
+                     <placeName ref="Banq">Banquette</placeName>
                   </location>.
                </death>
                <listEvent>
                   <event>
                      <desc>
-                        An <persName ref="#Anon-03">Unknown</persName> individual, presumably male was lynched on <date when="1872-01-12">12 Jan. 1872</date> in <location><placeName role="Banq">Banquette</placeName></location>.
+                        An <persName ref="#Anon-03">Unknown</persName> individual, presumably male was lynched on <date when="1872-01-12">12 Jan. 1872</date> in <location><placeName ref="Banq">Banquette</placeName></location>.
                         He was charged with theft. He was hanged for his presumed crime.
                      </desc>
                   </event>
@@ -336,13 +336,13 @@
                <death>
                   <date when="1872-10-12">12 Oct. 1872</date>
                   <location>
-                     <placeName role="LimeCount">Limestone County</placeName>
+                     <placeName ref="LimeCount">Limestone County</placeName>
                   </location>.
                </death>
                <listEvent>
                   <event>
                      <desc>
-                        An <persName ref="#Anon-04">Unknown</persName> individual, presumably male was lynched on <date when="1872-10-12">12 Oct. 1872</date> in <location><placeName role="LimeCount">Limestone County</placeName></location>.
+                        An <persName ref="#Anon-04">Unknown</persName> individual, presumably male was lynched on <date when="1872-10-12">12 Oct. 1872</date> in <location><placeName ref="LimeCount">Limestone County</placeName></location>.
                         He was charged with theft. He was hanged taken from his home and hanged by eight or nine men.
                      </desc>
                   </event>
@@ -358,13 +358,13 @@
             <death>
                <date when="1874-05-12">12 May 1874</date>
                <location>
-                  <placeName role="CayLake">Cayman Lake</placeName>
+                  <placeName ref="CayLake">Cayman Lake</placeName>
                </location>.
             </death>
             <listEvent>
                <event>
                   <desc>
-                     3 unknown Mexicans, presumably male, were lynched on <date when="1874-05-12">12 May 1874</date> in <placeName role="CayLake">Cayman Lake</placeName>.
+                     <persName ref="#AnonGrp-04">3 unknown Mexicans</persName>, presumably male, were lynched on <date when="1874-05-12">12 May 1874</date> in <placeName ref="CayLake">Cayman Lake</placeName>.
                      They were charged with murder. They were hanged for their presumed crime..
                   </desc>
                </event>
@@ -389,13 +389,13 @@
                   <date when="1874-08-27">27 Aug. 1874</date>
                   <measure>Near</measure>
                   <location>
-                     <placeName role="Bville">Brownsville</placeName>
+                     <placeName ref="Bville">Brownsville</placeName>
                   </location>.
                </death>
                <listEvent>
                   <event>
                      <desc>
-                        <persName ref="#FranciscoRomirez">Francisco Romirez</persName> was lynched on <date when="1874-08-27">27 Aug. 1874</date> <measure>near</measure> <location><placeName role="Bville">Brownsville</placeName></location>.
+                        <persName ref="#FranciscoRomirez">Francisco Romirez</persName> was lynched on <date when="1874-08-27">27 Aug. 1874</date> <measure>near</measure> <location><placeName ref="Bville">Brownsville</placeName></location>.
                         He was not charged with anything, except under suspicion of being "one of Cortina's men". He was hanged.
                      </desc>
                   </event>
@@ -412,13 +412,13 @@
                   <date when="1874-08-27">15 Dec. 1874</date>
                   <measure>Near</measure>
                   <location>
-                     <placeName role="Bville">Brownsville</placeName>
+                     <placeName ref="Bville">Brownsville</placeName>
                   </location>.
                </death>
                <listEvent>
                   <event>
                      <desc>
-                        <persName ref="#AntonioGuerra">Antonio Guerra</persName> was lynched on <date when="1874-08-27">15 Dec. 1874</date> <measure>near</measure> <location><placeName role="Bville">Brownsville</placeName></location>.
+                        <persName ref="#AntonioGuerra">Antonio Guerra</persName> was lynched on <date when="1874-08-27">15 Dec. 1874</date> <measure>near</measure> <location><placeName ref="Bville">Brownsville</placeName></location>.
                         He crime is unknown, but he was hanged alongside <persName ref="#PedroGarza">Pedro Garza</persName>.
                      </desc>
                   </event>
@@ -435,13 +435,13 @@
                   <date when="1874-08-27">15 Dec. 1874</date>
                   <measure>Near</measure>
                   <location>
-                     <placeName role="Bville">Brownsville</placeName>
+                     <placeName ref="Bville">Brownsville</placeName>
                   </location>.
                </death>
                <listEvent>
                   <event>
                      <desc>
-                        <persName ref="#PedroGarza">Pedro Garza</persName> was lynched on <date when="1874-08-27">15 Dec. 1874</date> <measure>near</measure> <location><placeName role="Bville">Brownsville</placeName></location>.
+                        <persName ref="#PedroGarza">Pedro Garza</persName> was lynched on <date when="1874-08-27">15 Dec. 1874</date> <measure>near</measure> <location><placeName ref="Bville">Brownsville</placeName></location>.
                         He crime is unknown, but he was hanged alongside <persName ref="#AntonioGuerra">Antonio Guerra</persName>.
                      </desc>
                   </event>
@@ -457,13 +457,13 @@
                <death>
                   <date when="1876-02-02">02 Feb. 1876</date>
                   <location>
-                     <placeName role="Edinburgh">Edinburugh</placeName>
+                     <placeName ref="Edinburgh">Edinburugh</placeName>
                   </location>.
                </death>
                <listEvent>
                   <event>
                      <desc>
-                        8 unknown Mexicans, presumably male, were lynched on <date when="1876-02-02">02 Feb. 1876</date> in <placeName role="Edinburgh">Edinburgh</placeName>.
+                        <persName ref="#AnonGrp-05">8 unknown Mexicans</persName>, presumably male, were lynched on <date when="1876-02-02">02 Feb. 1876</date> in <placeName ref="Edinburgh">Edinburgh</placeName>.
                         They were charged with murder. They were hanged for their presumed crime.
                      </desc>
                   </event>
@@ -491,13 +491,13 @@
                   <date when="1877-06-14">14 June 1877</date>
                   <location>
                      <measure>Near</measure>
-                     <placeName role="Bonham">Bonham</placeName>
+                     <placeName ref="Bonham">Bonham</placeName>
                   </location>.
                </death>
                <listEvent>
                   <event>
                      <desc>
-                        5 unknown Mexicans, presumably male, were lynched on <date when="1877-06-14">14 June 1877</date> <measure>near</measure> <placeName role="Bonham">Bonham</placeName>.
+                        <persName ref="#AnonGrp-06">5 unknown Mexicans</persName>, presumably male, were lynched on <date when="1877-06-14">14 June 1877</date> <measure>near</measure> <placeName ref="Bonham">Bonham</placeName>.
                         They were charged with murder and sexual assault. They were executed by a posse for murdering a man, a boy, and "outraging" three women.
                      </desc>
                   </event>
@@ -524,13 +524,13 @@
                   <date when="1877-07-07">07 July 1877</date>
                   <location>
                      <measure>Near</measure>
-                     <placeName role="Banq">Banquette</placeName>
+                     <placeName ref="Banq">Banquette</placeName>
                   </location>.
                </death>
                <listEvent>
                   <event>
                      <desc>
-                        2 unknown Mexicans, presumably male, were lynched on <date when="1877-07-07">07 July 1877</date> <measure>near</measure> <placeName role="Banq">Banquette</placeName>.
+                        <persName ref="AnonGrp-07">2 unknown Mexicans</persName>, presumably male, were lynched on <date when="1877-07-07">07 July 1877</date> <measure>near</measure> <placeName ref="Banq">Banquette</placeName>.
                         They were charged with murder. They were "made to pay the penalty of their crimes" by a posse for murdering a father and his son, a boy.
                      </desc>
                   </event>
